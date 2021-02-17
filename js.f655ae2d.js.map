@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/index.js"],"names":["scene","document","getElementById","parallax","Parallax"],"mappings":";AACQ,IAAIA,EAAQC,SAASC,eAAe,SAChCC,EAAW,IAAIC,SAASJ","file":"js.f655ae2d.js","sourceRoot":"../src","sourcesContent":["        // Parallax Code\n        var scene = document.getElementById('scene');\n        var parallax = new Parallax(scene);"]}

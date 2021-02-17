@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
     "dev": "parcel serve src/index.html",
-    "deploy": "parcel build src/index.html -d build && gh-pages -d build"
+    "deploy": "parcel build src/index.html -d build && gh-pages -d build",
+    "build" : "rm -rf build && parcel build src/index.html -d build --public-url /repo/"
   },
   "keywords": [],
   "author": "",
